@@ -17,20 +17,34 @@ const Template = ({ label, ...args }) => {
   return createButton({ label, ...args });
 };
 
-export const HeaderButton = Template.bind({});
+//Default CTA Button
+export const CTAButton = Template.bind({});
 // More on args: https://storybook.js.org/docs/html/writing-stories/args
-HeaderButton.args = {
+CTAButton.args = {
   primary: true,
-  label: 'Expositions',
+  label: 'Button',
 };
 
-export const SecondaryButton = Template.bind({});
-SecondaryButton.args = {
-  label: 'Billetterie',
+export const NewsletterButton = Template.bind({});
+NewsletterButton.args = {
+  size: 'newsletter',
+  label: 'button',
 };
 
 export const DonButton = Template.bind({});
 DonButton.args = {
-  size: 'large',
-  label: 'Faire un don',
+  size: 'don',
+  label: 'Button',
+};
+
+export const CardPremiumButton = Template.bind({});
+CardPremiumButton.args = {
+  size: 'card-premium',
+  label: 'Button',
+};
+
+export const CardOthersButton = Template.bind({});
+CardOthersButton.args = {
+  size: 'card-others',
+  label: 'Button',
 };

@@ -6,52 +6,101 @@
   display: inline-block;
 }
 
-/* HEADER BUTTON TYPE */
-.storybook-button--header {
-  width: 246px;
-  height: 90px;
+/* CTA BUTTON */
+.storybook-button--cta {
+  padding: 32px 44px;
   color: black;
   background-color: transparent;
-  border: 1px solid black;
-  text-transform: uppercase;
-  line-height: 38px;
-  font-size: 26px;
-  letter-spacing: 0.15em;
-}
-.storybook-button--header:hover {
-  color: black;
-  background-color: white;
-  border: 1px solid white;
-}
-
-/* SECONDARY BUTTON TYPE */
-.storybook-button--secondary {
-  width: 308px;
-  height: 100px;
-  border: 1px solid white;
-  color: black;
-  background-color: white;
+  border: 3px solid black;
   font-size: 36px;
+  font-weight: bold;
+  letter-spacing: 0.15em;
+  font-family: 'Kannada MN', sans-serif;
 }
-
-.storybook-button--secondary:hover {
-  border: 1px solid black;
+/* CTA BUTTON ON HOVER */
+.storybook-button--cta:hover {
   color: white;
-  background-color: black;
+  background-color: #650033;
+  border: 3px solid black;
+}
+/* CTA BUTTON ON DISABLED */
+.storybook-button--cta:disabled {
+  color: #BB2865;
+  background-color: white;
+  border: 3px solid #BB2865;
+  opacity: 70%;
+}
+/* CTA BUTTON ON FOCUS */
+.storybook-button--cta:focus {
+  color: white;
+  background-color: #BB2865;
+  border: none;
 }
 
-/* FAIRE UN DON BUTTON */
-.storybook-button--large {
+/* NEWSLETTER BUTTON */
+.storybook-button--newsletter {
+  padding: 8px 16px;
+  color: black;
+  background-color: white;
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+}
+/* */
+.storybook-button--newsletter:hover {
+  color: black;
+  background-color: white;
+  font-size: 24px;
+}
+
+/* DON BUTTON */
+.storybook-button--don {
+  padding: 16px 44px;
   color: white;
   background-color: #857878;
-  font-size: 36px;
-  width: 378px;
-  height: 100px;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: 'Kannada MN', sans-serif;
+  border: 3px solid #BB2865;
+}
+/* DON BUTTON ON HOVER */
+.storybook-button--don:hover {
+  color: white;
+  background-color: #857878;
+  font-size: 24px;
   border: 3px solid #BB2865;
 }
 
-.storybook-button--large:hover {
-  color: black;
-  background-color: #BB2865;
-  border: 3px solid #857878;
+/* CARD PREMIUM BUTTON */
+.storybook-button--card-premium {
+  font-family: 'Arial', sans-serif;
+  padding: 8px 24px;
+  color: #BB2865;
+  background-color: white;
+  font-size: 16px;
+  font-weight: bold;
 }
+/* CARD PREMIUM BUTTON HOVER */
+.storybook-button--card-premium:hover {
+  color: #650033;
+  background-color: white;
+  border: 1px solid #650033;
+}
+
+/* CARD OTHER BUTTON */
+.storybook-button--card-others {
+  font-family: 'Arial', sans-serif;
+  padding: 8px 24px;
+  color: white;
+  background-color: #BB2865;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* CARD OTHER BUTTON HOVER */
+.storybook-button--card-others:hover {
+  color: white;
+  background-color: #650033;
+  border: 1px solid #650033;
+}
+
