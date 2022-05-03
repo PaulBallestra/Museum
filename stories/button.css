@@ -1,14 +1,11 @@
 .storybook-button {
-  font-family: 'Arial', sans-serif;
-  font-weight: 700;
-  font-style: normal;
   cursor: pointer;
   display: inline-block;
 }
 
 /* CTA BUTTON */
 .storybook-button--cta {
-  padding: 32px 44px;
+  padding: 20px 44px;
   color: black;
   background-color: transparent;
   border: 3px solid black;

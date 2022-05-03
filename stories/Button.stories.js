@@ -6,7 +6,6 @@ export default {
   // More on argTypes: https://storybook.js.org/docs/html/api/argtypes
   argTypes: {
     label: { control: 'text' },
-    onClick: { action: 'onClick' },
   },
 };
 
