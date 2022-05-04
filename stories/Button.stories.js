@@ -1,24 +1,18 @@
 import { createButton } from './Button';
 
-// More on default export: https://storybook.js.org/docs/html/writing-stories/introduction#default-export
 export default {
   title: 'Museum/Buttons',
-  // More on argTypes: https://storybook.js.org/docs/html/api/argtypes
   argTypes: {
     label: { control: 'text' },
   },
 };
 
-// More on component templates: https://storybook.js.org/docs/html/writing-stories/introduction#using-args
 const Template = ({ label, ...args }) => {
-  // You can either use a function to create DOM elements or use a plain html string!
-  // return `<div>${label}</div>`;
   return createButton({ label, ...args });
 };
 
 //Default CTA Button
 export const CTAButton = Template.bind({});
-// More on args: https://storybook.js.org/docs/html/writing-stories/args
 CTAButton.args = {
   primary: true,
   label: 'Button',

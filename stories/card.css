@@ -1,0 +1,39 @@
+.storybook-button {
+    cursor: pointer;
+    display: inline-block;
+}
+
+.card-otherabonnement {
+    width: 336px;
+    height: 537px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.card-title {
+    color: black;
+    font-family: 'Kannada MN', sans-serif;
+    letter-spacing: 0.15em;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.card-corp {
+    color: black;
+    font-family: 'Helvetica', sans-serif;
+    margin: 24px 24px;
+    font-weight: lighter;
+}
+
+.card-priceperyear{
+    margin: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+.card-price {
+    color: black;
+    text-align: center;
+    font-family: "Arial", sans-serif;
+}
