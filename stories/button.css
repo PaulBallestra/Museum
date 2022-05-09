@@ -81,13 +81,18 @@
     background-color: #BB2865;
     font-size: 16px;
     font-weight: bold;
+    border: none;
+    box-shadow: 0px 10px 15px 5px rgba(0,0,0,0.25);
 }
 
 /* CARD PREMIUM BUTTON HOVER */
 .storybook-button--card-premium:hover {
     color: white;
     background-color: #650033;
-    border: 1px solid #650033;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border: 1px solid white;
 }
 
 /* CARD OTHER BUTTON */
@@ -98,12 +103,17 @@
     background-color: white;
     font-size: 16px;
     font-weight: bold;
+    border: none;
+    box-shadow: 0px 10px 15px 5px rgba(0,0,0,0.25);
 }
 
 /* CARD OTHER BUTTON HOVER */
 .storybook-button--card-others:hover {
     color: #650033;
     background-color: white;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
     border: 1px solid #650033;
 }
 
