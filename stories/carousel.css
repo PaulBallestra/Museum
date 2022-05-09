@@ -1,0 +1,12 @@
+.storybook-button {
+    cursor: pointer;
+    display: inline-block;
+}
+
+.carousel-slider {
+    width: 100vw;
+    height: 760px;
+    background-color: black;
+    text-align: center;
+    overflow: hidden;
+}
