@@ -1,103 +1,109 @@
 .storybook-button {
-  cursor: pointer;
-  display: inline-block;
+    cursor: pointer;
+    display: inline-block;
 }
 
 /* CTA BUTTON */
 .storybook-button--cta {
-  padding: 20px 44px;
-  color: black;
-  background-color: transparent;
-  border: 3px solid black;
-  font-size: 36px;
-  font-weight: bold;
-  letter-spacing: 0.15em;
-  font-family: 'Kannada MN', sans-serif;
+    padding: 20px 44px;
+    color: black;
+    background-color: transparent;
+    border: 3px solid black;
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 0.15em;
+    font-family: 'Kannada MN', sans-serif;
 }
+
 /* CTA BUTTON ON HOVER */
 .storybook-button--cta:hover {
-  color: white;
-  background-color: #650033;
-  border: 3px solid black;
+    color: white;
+    background-color: #650033;
+    border: 3px solid black;
 }
+
 /* CTA BUTTON ON DISABLED */
 .storybook-button--cta:disabled {
-  color: #BB2865;
-  background-color: white;
-  border: 3px solid #BB2865;
-  opacity: 70%;
+    color: #BB2865;
+    background-color: white;
+    border: 3px solid #BB2865;
+    opacity: 70%;
 }
+
 /* CTA BUTTON ON FOCUS */
 .storybook-button--cta:focus {
-  color: white;
-  background-color: #BB2865;
-  border: none;
+    color: white;
+    background-color: #BB2865;
+    border: none;
 }
 
 /* NEWSLETTER BUTTON */
 .storybook-button--newsletter {
-  padding: 8px 16px;
-  color: black;
-  background-color: white;
-  font-family: 'Arial', sans-serif;
-  font-weight: bold;
-  font-size: 24px;
+    padding: 8px 16px;
+    color: black;
+    background-color: white;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
 }
+
 /* */
 .storybook-button--newsletter:hover {
-  color: black;
-  background-color: white;
-  font-size: 24px;
+    color: black;
+    background-color: white;
+    font-size: 24px;
 }
 
 /* DON BUTTON */
 .storybook-button--don {
-  padding: 16px 44px;
-  color: white;
-  background-color: #857878;
-  font-size: 24px;
-  font-weight: bold;
-  font-family: 'Kannada MN', sans-serif;
-  border: 3px solid #BB2865;
+    padding: 16px 44px;
+    color: white;
+    background-color: #857878;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Kannada MN', sans-serif;
+    border: 3px solid #BB2865;
 }
+
 /* DON BUTTON ON HOVER */
 .storybook-button--don:hover {
-  color: white;
-  background-color: #857878;
-  font-size: 24px;
-  border: 3px solid #BB2865;
+    color: white;
+    background-color: #857878;
+    font-size: 24px;
+    border: 3px solid #BB2865;
 }
 
 /* CARD PREMIUM BUTTON */
 .storybook-button--card-premium {
-  font-family: 'Arial', sans-serif;
-  padding: 8px 24px;
-  color: #BB2865;
-  background-color: white;
-  font-size: 16px;
-  font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    padding: 8px 24px;
+    color: white;
+    background-color: #BB2865;
+    font-size: 16px;
+    font-weight: bold;
 }
+
 /* CARD PREMIUM BUTTON HOVER */
 .storybook-button--card-premium:hover {
-  color: #650033;
-  background-color: white;
-  border: 1px solid #650033;
+    color: white;
+    background-color: #650033;
+    border: 1px solid #650033;
 }
 
 /* CARD OTHER BUTTON */
 .storybook-button--card-others {
-  font-family: 'Arial', sans-serif;
-  padding: 8px 24px;
-  color: white;
-  background-color: #BB2865;
-  font-size: 16px;
-  font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    padding: 8px 24px;
+    color: #BB2865;
+    background-color: white;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 /* CARD OTHER BUTTON HOVER */
 .storybook-button--card-others:hover {
-  color: white;
-  background-color: #650033;
-  border: 1px solid #650033;
+    color: #650033;
+    background-color: white;
+    border: 1px solid #650033;
 }
 

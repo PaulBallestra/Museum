@@ -12,7 +12,7 @@
 
 .card-title {
     color: black;
-    font-family: 'Kannada MN', sans-serif;
+    font-family: 'Arial', sans-serif;
     letter-spacing: 0.15em;
     font-size: 36px;
     font-weight: bold;
@@ -21,6 +21,14 @@
 
 .card-corp {
     color: black;
+    font-family: 'Helvetica', sans-serif;
+    margin: 24px 24px;
+    font-weight: lighter;
+}
+
+.card-corp-disabled {
+    color: gray;
+    opacity: 0.8;
     font-family: 'Helvetica', sans-serif;
     margin: 24px 24px;
     font-weight: lighter;

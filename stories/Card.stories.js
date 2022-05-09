@@ -30,14 +30,22 @@ const Template = ({ label, price }) => {
                     <p class="card-corp" style="margin: auto 0;">/An</p>
                 </div>
                 
-                
+                <button>Button</button>
                
             </div>`;
 };
 
-//OthersAbonnement Card
-export const OthersAbonnement = Template.bind({});
-OthersAbonnement.args = {
+//BasicAbonnement Card
+export const BasicAbonnement = Template.bind({});
+BasicAbonnement.args = {
     label: 'Basic',
     price: '233€',
 };
+
+//StandardAbonnement Card
+export const StandardAbonnement = Template.bind({});
+StandardAbonnement.args = {
+    label: 'Standard',
+    price: '333€',
+};
+
