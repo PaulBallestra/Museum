@@ -45,9 +45,10 @@
     font-family: 'Arial', sans-serif;
     font-weight: bold;
     font-size: 24px;
+    border: none;
 }
 
-/* */
+/* NEWSLETTER BUTTON ON HOVER */
 .storybook-button--newsletter:hover {
     color: black;
     background-color: white;
